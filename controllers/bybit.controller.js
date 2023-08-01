@@ -1,5 +1,4 @@
 import { createExchange } from "@compendiumfi/pendax/exchanges/exchange.js";
-import { request } from "express";
 
 let bybit_exchange = createExchange({
     exchange: "bybit",
